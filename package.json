@@ -1,0 +1,39 @@
+{
+  "name": "merge-unified-api-demo",
+  "version": "1.0.0",
+  "description": "A demo project for integrating with the Merge Unified API.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@mergeapi/react-merge-link": "^2.2.3",
+    "axios": "^0.21.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "keywords": [
+    "Merge",
+    "API",
+    "Demo",
+    "React"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

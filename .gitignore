@@ -1,0 +1,18 @@
+# .gitignore for Merge Unified API Demo
+
+# Node modules
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Logs
+*.log
+
+# Env files
+.env
+
+# OS/IDE
+.DS_Store
+.vscode/
